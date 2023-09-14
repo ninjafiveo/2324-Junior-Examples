@@ -8,7 +8,7 @@ def Teacher_Question():
     if teacher1 == "Sekol" and teacher2 == "Bionci":
         print(f"That is correct. The best teacher's are {teacher1} and {teacher2}.")
     elif teacher1 == "Sekol" and teacher2 != "Wright":
-        print(f"That is correct. The best teacher is {teacher1}. Although {teacher2} is pretty awesome          too.")
+        print(f"That is correct. The best teacher is {teacher1}. Although {teacher2} is pretty awesome too.")
     elif teacher1 == "Wright" or teacher2 == "Wright":
         print("Wrong. -5000 points for you.")
     elif teacher1 != "Sekol" or teacher2 != "Sekol":
